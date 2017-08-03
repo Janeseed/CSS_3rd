@@ -1,9 +1,9 @@
 #include <iostream>
 using namespace std;
 
-void change_value(int * x, int value)
+void change_value(int * ptr, int value)
 {
-	*x = value;
+	*ptr = value;
 	cout << "x : " << *x << " in change_value" << endl;
 }
 
